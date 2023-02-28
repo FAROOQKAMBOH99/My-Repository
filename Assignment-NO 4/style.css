@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-family: 'New York Extra Large';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 100%;
+
+text-align: center;
+
+align-items: center;
+color: #000000;
+}
+
+.text{
+    font-family: 'SF Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+
+text-align: center;
+
+color: #000000;
+}
+
+.mika{
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+
+.date{
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+/* .imagemask{ */
+    /* margin-left: 35vh; */
+/* } */
+@media screen and (min-width: 1000px) {
+    .imagemask{
+        margin-left: 35vh;
+    }
+    .list{
+          /* margin-left: 45vh; */
+    }
+   
+    .eyes{
+         margin-top: -7vh;
+    }
+  }
+  @media screen and (max-width: 600px){
+.eyes{
+    margin-top: -2vh;
+    /* width: 3px; */
+}
+
+
+  }
+/* .mikadate{
+    margin-right: 0vh;
+} */
+
+.paragraph{
+    font-family: 'New York Medium';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+display: flex;
+justify-content: center;
+text-align: justify;
+color: #000000;
+
+}
+
+.lines{
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.para2{
+    
+font-family: 'New York Medium';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+/* or 34px */
+text-align: justify;
+display: flex;
+justify-content: center;
+
+color: #000000;
+
+}
+
+.list{
+   
+    /* margin-left: 45vh; */
+    /* justify-content: center; */
+    font-family: 'New York Medium';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+
+
+
+color: #000000;
+}
+
+.eyes{
+    width: 8%;
+    /* margin-top: -7vh; */
+    /* background: url(./accest/images/Line\ 3.png) */
+    
+    
+}
+.next{
+    font-family: 'New York Extra Large';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+.imaget{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+text-align: center;
+
+color: #000000;
+}
+.newsletter{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 5px solid black;
+;
+}
+
+.sign{
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    /* identical to box height, or 78% */
+    
+    text-align: center;
+    
+    color: #090909;
+    
+
+}
